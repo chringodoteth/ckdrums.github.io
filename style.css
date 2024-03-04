@@ -136,6 +136,8 @@ attribution {
 
     .text-section p {
         font-size: 1em;
+        margin: 0 auto; /
+        padding: 32px;
     }
 
     blockquote {
