@@ -112,3 +112,46 @@ attribution {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Landing section styles */
+    .overlay {
+        padding: 10px;
+    }
+
+    .overlay h1 {
+        font-size: 2em;
+    }
+
+    .overlay p {
+        font-size: 1em;
+    }
+
+    /* Text section styles */
+    .text-section {
+        max-width: 90%; /* Adjust the width as needed */
+    }
+
+    .text-section p {
+        font-size: 1em;
+    }
+
+    blockquote {
+        font-size: 1em;
+    }
+
+    /* Footer section styles */
+    .footer {
+        padding: 10px;
+    }
+
+    .email-link {
+        font-size: 1em;
+    }
+
+    .social-links img {
+        width: 20px; /* Adjust the size of social icons as needed */
+    }
+}
