@@ -128,6 +128,7 @@ attribution {
         padding: 10px;
         width: 100%; /* set width to 100% */
         padding-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     .overlay h1 {
@@ -146,14 +147,15 @@ attribution {
         font-size: 0.9em; /* Decrease font size for better readability */
         line-height: 1.6; /* Increase line height for better spacing */
         word-wrap: break-word; /* Ensure that long words do not overflow */
-        padding-bottom: 30px;
+        padding-bottom: 60px;
+        padding-top: 60px;
     }
 
     /* Credits section styles */
     .credits {
         padding: 20px; /* Reduced padding for mobile */
         text-align: center;
-        padding-bottom: 30px;
+        margin-top: 60px;
     }
 
     .credits h2 {
@@ -177,6 +179,8 @@ attribution {
 
     blockquote {
         font-size: 2em;
+        margin-top: 60px; /* Adds space above the blockquote section */
+        margin-bottom: 60px;
     }
 
     /* Footer section styles */
