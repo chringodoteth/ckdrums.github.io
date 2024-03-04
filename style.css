@@ -131,12 +131,11 @@ attribution {
 
     /* Text section styles */
     .text-section {
-        max-width: 100%; /* Adjust the width as needed */
+        max-width: 90%; /* Adjust the width as needed */
     }
 
     .text-section p {
         font-size: 1em;
-        margin: 0 auto; /
         padding: 32px;
     }
 
