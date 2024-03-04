@@ -147,7 +147,7 @@ attribution {
         font-size: 0.9em; /* Decrease font size for better readability */
         line-height: 1.6; /* Increase line height for better spacing */
         word-wrap: break-word; /* Ensure that long words do not overflow */
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         padding-top: 60px;
     }
 
