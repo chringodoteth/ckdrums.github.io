@@ -129,9 +129,10 @@ attribution {
         font-size: 1em;
     }
 
-    /* Text section styles */
     .text-section {
         max-width: 90%; /* Adjust the width as needed */
+        font-size: 0.9em; /* Decrease font size for better readability */
+        line-height: 1.6; /* Increase line height for better spacing */
     }
 
     .text-section p {
