@@ -135,10 +135,6 @@ attribution {
         line-height: 1.6; /* Increase line height for better spacing */
     }
 
-    .text-section p {
-        font-size: 1em;
-        padding: 32px;
-    }
 
     blockquote {
         font-size: 1em;
