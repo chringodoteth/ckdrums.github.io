@@ -147,8 +147,33 @@ attribution {
         word-wrap: break-word; /* Ensure that long words do not overflow */
     }
 
+    /* Credits section styles */
+    .credits {
+        padding: 20px; /* Reduced padding for mobile */
+        text-align: center;
+    }
+
+    .credits h2 {
+        font-size: 1.5em; /* Adjust the font size as needed */
+    }
+
+    .credits ul {
+        padding: 0; /* Reset padding */
+    }
+
+    .credits ul li {
+        font-size: 0.9em; /* Adjust the font size for better readability */
+        line-height: 1.6; /* Increase line height for better readability */
+        margin-bottom: 10px;
+        word-wrap: break-word; /* Ensure that long words do not overflow */
+    }
+
+    .credits ul li a {
+        font-size: inherit; /* Ensure anchor tags inherit font size from li */
+    }
+
     blockquote {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     /* Footer section styles */
