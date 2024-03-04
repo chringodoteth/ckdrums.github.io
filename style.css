@@ -181,17 +181,13 @@ attribution {
     blockquote {
         font-size: 2em;
         margin-top: 60px; /* Adds space above the blockquote section */
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     attribution {
-        width: 90%; /* Adjust the width as needed */
-        margin: 0 auto; /* Center the text section */
-        padding: 10px; /* Add some padding */
-        font-size: 0.9em; /* Decrease font size for better readability */
-        line-height: 1.6; /* Increase line height for better spacing */
-        word-wrap: break-word; /* Ensure that long words do not overflow */
-  
+        margin-top: 0; /* Remove top margin to reduce space */
+        padding-top: 0; /* Remove top padding if necessary */
+        /* Other styles */
     }
 
     /* Footer section styles */
