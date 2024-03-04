@@ -48,6 +48,7 @@ body {
 /* Text section styles */
 .text-section {
     max-width: 1200px; 
+    min-width: 300px;
     /*margin: 0 auto; */
     background-color: #ffffff;
     text-align: center;
@@ -132,6 +133,7 @@ attribution {
 
     .text-section {
         max-width: 90%; /* Adjust the width as needed */
+        min-width: 300px;
         font-size: 0.9em; /* Decrease font size for better readability */
         line-height: 1.6; /* Increase line height for better spacing */
     }
