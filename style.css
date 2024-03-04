@@ -10,7 +10,7 @@ body {
 }
 
 /* Landing section styles */
-.landing {
+.landing {xqq
     position: relative;
     height: 100vh;
 }
@@ -118,9 +118,15 @@ attribution {
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
+    /* Reset some styles for mobile */
+    * {
+        box-sizing: border-box; /* make sure padding doesn't affect the overall width */
+    }
+
     /* Landing section styles */
     .overlay {
         padding: 10px;
+        width: 100%; /* set width to 100% */
     }
 
     .overlay h1 {
@@ -131,13 +137,15 @@ attribution {
         font-size: 1em;
     }
 
+    /* Text section styles */
     .text-section {
-        max-width: 90%; /* Adjust the width as needed */
-        min-width: 300px;
+        width: 90%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the text section */
+        padding: 10px; /* Add some padding */
         font-size: 0.9em; /* Decrease font size for better readability */
         line-height: 1.6; /* Increase line height for better spacing */
+        word-wrap: break-word; /* Ensure that long words do not overflow */
     }
-
 
     blockquote {
         font-size: 1em;
