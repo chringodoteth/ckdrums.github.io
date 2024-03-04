@@ -51,7 +51,8 @@ body {
     margin: 0 auto; /
     background-color: #ffffff;
     text-align: center;
-    padding: 160px;
+    margin-bottom: 120px;
+    
 }
 
 .text-section p {
